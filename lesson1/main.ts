@@ -1,2 +1,6 @@
 const message: string = "cc";
-console.log(message);
+
+const sum = (x: number, y: number) => {
+  return x + y;
+};
+console.log("🚀 ~ Sum:", sum(10, 10));
